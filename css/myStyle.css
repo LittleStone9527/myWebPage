@@ -1,0 +1,30 @@
+.hr_40{
+    height: 40px;
+}
+.carousel .item{
+    height: 500px;
+    width: auto;
+}
+.carousel .item img{
+    width: 100%;
+}
+.carousel-caption p{
+    font-size: 20px;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+    text-shadow:1px 1px 0 #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
