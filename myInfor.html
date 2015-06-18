@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>CSS3实现页面平滑过渡</title>
+
+    <meta charset="UTF-8">
+    <!--&lt;!&ndash;[if lt IE 9]>-->
+
+    <!--<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>-->
+
+    <!--<![endif]&ndash;&gt;-->
+    <!--&lt;!&ndash;[if lte IE 8]>-->
+    <!--<script src="http://cdn.bootcss.com/selectivizr/1.0.2/selectivizr.js"></script>-->
+    <!--<![endif]&ndash;&gt;-->
+    <!--IE=edge 告诉ie使用最新的引擎渲染网页。chrome=1激活chrome frame chrome=1， 了解下：google chrome frame(谷歌内嵌浏览器框架GCF），这个插件让用户的IE浏览器外观不变，但用户在浏览网页时，实际使用的是googlec chrome内核，且支持IE6,7,8，多个版本。-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1"/>
+    <!--让页面强制适应移动设备宽度，而且不许用户缩放-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- 加载字体库-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab:400,700"/>
+    <link rel="stylesheet" type="text/css" href="style/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <div class="st-container">
+            <!-- 用单选按按钮来判断当前链接是否为选中状态-->
+            <!-- nav begin-->
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+            <a href="#st-panel-1">Serendipity</a>
+            <input type="radio" name="radio-set"  id="st-control-2"/>
+            <a href="#st-panel-2">Happiness</a>
+            <input type="radio" name="radio-set"  id="st-control-3"/>
+            <a href="#st-panel-3">Tranquillity</a>
+            <input type="radio" name="radio-set"  id="st-control-4"/>
+            <a href="#st-panel-4">positivity</a>
+            <input type="radio" name="radio-set"  id="st-control-5"/>
+            <a href="#st-panel-5">Passion</a>
+            <!-- nav end-->
+
+            <!-- content begin-->
+            <div class="st-scroll">
+
+                <section class="st-panel" id="st-panel-1">
+                    <div class="st-desc" data-icon="H"></div>
+                    <h2>Serendipity-1</h2>
+                    <p>Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....</p>
+                </section>
+
+                <section class="st-panel st-color" id="st-panel-2">
+                    <div class="st-desc" data-icon="2"></div>
+                    <h2>Serendipity-2</h2>
+                    <p>Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....</p>
+                </section>
+
+                <section class="st-panel" id="st-panel-3">
+                    <div class="st-desc" data-icon="B"></div>
+                    <h2>Serendipity-3</h2>
+                    <p>Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....</p>
+                </section>
+
+                <section class="st-panel st-color" id="st-panel-4">
+                    <div class="st-desc" data-icon="k"></div>
+                    <h2>Serendipity-4</h2>
+                    <p>Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....</p>
+                </section>
+
+                <section class="st-panel" id="st-panel-5">
+                    <div class="st-desc" data-icon="C"></div>
+                    <h2>Serendipity-5</h2>
+                    <p>Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....Banksy adipisicing.....</p>
+                </section>
+            </div>
+            <!-- content end-->
+        </div>
+    </div>
+</body>
+</html>
