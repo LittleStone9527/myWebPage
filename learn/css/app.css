@@ -1,0 +1,13 @@
+/*
+.row{
+	margin-bottom: 40px;
+}
+.row .row{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+[class*="col-"]{
+	padding: 15px 0;
+	background-color: #00b3ee;
+	border:1px solid #4a226d;
+}*/
